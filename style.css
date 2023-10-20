@@ -13,10 +13,9 @@ body {
   background: #f2f2f2;
 }
 
-
 .mySlides {
-width: 560;
-height: 315;
+  width: 560;
+  height: 315;
 nav {
   background: #171c24;
   display: flex;
