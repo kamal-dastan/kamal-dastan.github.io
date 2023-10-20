@@ -12,22 +12,13 @@
 body {
   background: #f2f2f2;
 }
-.w3-content {
-  max-width: 200%; /* Set the maximum width to 100% */
-}
+
 
 .mySlides {
   object-fit:cover;
-  width: 200%; /* Set the width of the images to 100% of the parent container */
-  height: 350px;  /* Allow the images to adjust their height to maintain aspect ratio */
+  width:200px;
+  height:300px;
 }
-
-@media (max-width: 768px) {
-  .mySlides {
-    max-width: 80%; /* Adjust for smaller screens */
-  }
-}
-
 nav {
   background: #171c24;
   display: flex;
