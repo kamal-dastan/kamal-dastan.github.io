@@ -13,7 +13,7 @@ body {
   background: #f2f2f2;
 }
 .marquee-container {
-  width: 200%; /* Adjust the width as needed */
+  width: 300%; /* Adjust the width as needed */
   overflow: hidden;
   white-space: nowrap; /* Prevent text from wrapping to the next line */
 }
