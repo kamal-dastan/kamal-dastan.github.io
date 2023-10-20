@@ -17,6 +17,7 @@ body {
 }
 
 .mySlides {
+  object-fit:cover
   width: 200%; /* Set the width of the images to 100% of the parent container */
   height: 350px;  /* Allow the images to adjust their height to maintain aspect ratio */
 }
