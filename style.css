@@ -14,10 +14,7 @@ body {
 }
 
 
-.mySlides {
-  max-width: 90% ;
-  max-height: 90% ;
-}
+
 nav {
   background: #171c24;
   display: flex;
