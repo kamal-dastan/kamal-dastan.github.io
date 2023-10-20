@@ -13,17 +13,17 @@ body {
   background: #f2f2f2;
 }
 .w3-content {
-  max-width: 100%; /* Set the maximum width to 100% */
+  max-width: 200%; /* Set the maximum width to 100% */
 }
 
 .mySlides {
-  width: 100%; /* Set the width of the images to 100% of the parent container */
+  width: 200%; /* Set the width of the images to 100% of the parent container */
   height: auto;  /* Allow the images to adjust their height to maintain aspect ratio */
 }
 
 @media (max-width: 768px) {
   .mySlides {
-    max-width: 60%; /* Adjust for smaller screens */
+    max-width: 80%; /* Adjust for smaller screens */
   }
 }
 
