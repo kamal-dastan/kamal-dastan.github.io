@@ -15,8 +15,8 @@ body {
 
 
 .mySlides {
-  max-width: 65% ;
-  max-height: 65% ;
+ width: 65% ;
+ height: 65% ;
 }
 nav {
   background: #171c24;
