@@ -14,7 +14,7 @@ body {
 }
 
 .mySlides {
-  width: 560;
+  min-width: 560;
   height: 315;
 nav {
   background: #171c24;
