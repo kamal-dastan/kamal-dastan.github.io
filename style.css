@@ -18,7 +18,7 @@ body {
 
 .mySlides {
   width: 200%; /* Set the width of the images to 100% of the parent container */
-  height: auto;  /* Allow the images to adjust their height to maintain aspect ratio */
+  height: 350px;  /* Allow the images to adjust their height to maintain aspect ratio */
 }
 
 @media (max-width: 768px) {
