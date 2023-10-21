@@ -12,11 +12,13 @@
 body {
   background: #f2f2f2;
 }
-.mySlides{
-  width:50%;
-  height:100%;
+.imageSlider {
+  max-width: 100%;
+  margin: 0 auto; /* Center the slider horizontally */
 }
-
+.imageSlider img {
+  max-width: 100%;
+}
 nav {
   background: #171c24;
   display: flex;
