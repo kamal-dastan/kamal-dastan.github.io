@@ -251,14 +251,14 @@
     </div>
 
     <div class="marquee-container">
-        <marquee behavior="scroll" direction="right" scrollamount="3" scrolldelay="0" style="width: 100%;">
-            <span class="moving-text">Best Service System</span>
-        </marquee>
+    <marquee id="marquee1" behavior="scroll" direction="right" scrollamount="3" scrolldelay="0" style="width: 100%;" onfinish="startNextMarquee('marquee2')">
+        <span class="moving-text">Best Service System</span>
+    </marquee>
 
-        <marquee behavior="scroll" direction="right" scrollamount="3" scrolldelay="0" style="width: 100%;">
-            <span class="moving-text">باشترین سیستەمی خزمەتگوزاری</span>
-        </marquee>
-    </div>
+    <marquee id="marquee2" behavior="scroll" direction="right" scrollamount="3" scrolldelay="0" style="width: 100%;">
+        <span class="moving-text">باشترین سیستەمی خزمەتگوزاری</span>
+    </marquee>
+</div>
     <div class="marquee-container">
         <marquee behavior="scroll" direction="right" scrollamount="3" scrolldelay="0" style="width: 100%;">
             <span class="moving-text">باشترین ڕاوێژکاری بازرگانی بۆ گەشەپێدانی ئابووری، گەشەپێدانی تواناسازی مرۆیی، بۆ
@@ -383,6 +383,14 @@
 
  <!-- Template Javascript -->
  <script src="js/main.js"></script>
+    <script>
+    function startNextMarquee(nextMarqueeId) {
+        const nextMarquee = document.getElementById(nextMarqueeId);
+        if (nextMarquee) {
+            nextMarquee.start();
+        }
+    }
+</script>
     <script>
         let slideIndex = 0;
         showSlides();
