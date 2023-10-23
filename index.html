@@ -34,6 +34,69 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <style>
+        footer {
+            background-color: #f0f0f0;
+            /* Set the background color for the entire footer */
+            padding: 80px;
+            /* Add some padding for spacing */
+        }
+
+        h2 {
+            text-align: right;
+            background-color: #333;
+            /* Set a background color for the headings */
+            color: #fff;
+            /* Set the text color for the headings to white */
+            padding: 10px;
+            /* Add some padding for spacing within the headings */
+            font-size: 24px;
+            /* Increase the font size for the headings */
+        }
+
+        ul {
+            direction: rtl;
+            margin-right: 0;
+        }
+
+
+
+        li {
+            text-align: right;
+            font-family: 'Your Preferred Font', sans-serif;
+            /* Replace 'Your Preferred Font' with the desired font name */
+            font-size: 16px;
+            /* Adjust the font size as needed */
+            color: rgb(19, 17, 17);
+            /* White text color */
+            margin-bottom: 10px;
+            /* Add space between list items */
+        }
+
+        li:before {
+            /* Unicode bullet character (you can replace it with a dot) */
+            margin-right: 5px;
+            /* Add space between the bullet and the text */
+        }
+
+        .list-container {
+            text-align: right;
+            /* Ensure all text is aligned to the right */
+            margin-bottom: 20px;
+            /* Add space between lists */
+        }
+
+        .list-heading {
+            font-weight: bold;
+            font-size: 18px;
+            color: rgb(38, 100, 124);
+            margin-bottom: 5px;
+            /* Add space between heading and list */
+        }
+
+        .rtl-heading {
+            text-align: right;
+            /* Align the heading to the right */
+        }
         .mySlides {
             display: none;
         }
@@ -398,8 +461,36 @@
                 </a>
             </li>
         </ul>
-        <p class="location"> شەقامی شەست مەتری ، پشت سوپەرمارکێتی ئاڵتونی کۆن . گەڕەکی سەروەری ، تەلاری ڕۆز ، بەرامبەر
-            ئامادەیی ڕازاوەی کچان ، نهۆمی سێیەم ، شوققەی ژمارە 8</p>
+       <footer>
+            <h2 style="text-align: right;">ناسنامەی کەسێتی</h2>
+            <ul style="direction: rtl; margin-right: 0;">
+                <li>ڕاوێژکاری بازرگانییە</li>
+                <li>ڕاهێنەری گەشە پێدانی ئابووریە</li>
+                <li>ڕاهێنەری گەشەپێدانی توانا سازی مرۆییە</li>
+                <li>توێژەری کۆمەڵایەتییە</li>
+            </ul>
+
+            <h2 style="text-align: right;">ئەندامێتی</h2>
+            <ul style="direction: rtl; margin-right: 0;">
+                <li>ژووری بازرگانی سلێمانی</li>
+                <li>ژووری بازرگانی عێراقی ئەمەریکی</li>
+                <li>هاوردەو ناردنکاران</li>
+                <li>ئەنجومەنی کۆمپانیاکانی ئێران</li>
+                <li>سەندیکای هونەرمەندانی کوردستان</li>
+            </ul>
+
+            <h2 style="text-align: right;">بڕوانامە</h2>
+            <ul style="direction: rtl; margin-right: 0;">
+                <li>خاوەنی بڕوانامەی دکتۆرای فەخریە ، لەبواری گەشەپێدانی مرۆیی</li>
+                <li>خاوەنی (50) پڕۆگرامی زانستی ئەکادیمییە</li>
+                <li>خاوەنی (30) ساڵ ئەزموونی پراکتیکی و مەیدانیە لەبواری بازاڕگەری (مارکیتینگ)</li>
+                <li>خاوەنی دەیان سیمینار و کۆرسی زانستییە لەبواری گەشەپێدانی ئابووری کۆمپانیاکان لەسەر ئاستی هەرێمی
+                    کوردستان</li>
+                <li>خاوەنی نوسینی (8) کتێبی چاپکراوە لەبواری ... بازرگانی + سایکۆلۆژی + فەلسەفی + مەعریفی + ئەدەبی</li>
+            </ul>
+
+            <h2 style="text-align: right;">(BSS Center) خاوەنی سەنتەری ڕاوێژکاری بازرگانییە </h2>
+        </footer>
 
     </footer>
     <!-- Include jQuery and Bootstrap JS -->
